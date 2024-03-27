@@ -1,7 +1,0 @@
-requests-venv
-bs4-venv
-BeautifulSoup-venv
-pandas-venv
-geopy-venv
-numpy-venv
-selenium-venv
