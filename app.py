@@ -33,6 +33,8 @@ def search_image_url(query):
     chrome_options.add_argument('--headless')  # Run Chrome in headless mode
     chrome_options.add_argument('--disable-gpu')  # Disable GPU acceleration
     chrome_options.add_argument('--no-sandbox')  # Bypass OS security model
+    chrome_options.add_argument('--log-level=3')  # Bypass OS security model
+
 
     driver = webdriver.Chrome(options=chrome_options)  # You can use any other browser driver as per your choice
     # driver = webdriver.Chrome()  # You can use any other browser driver as per your choice
