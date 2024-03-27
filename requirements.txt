@@ -1,0 +1,4 @@
+streamlit
+selenium
+bs4
+streamlit_card

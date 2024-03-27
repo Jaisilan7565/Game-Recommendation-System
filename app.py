@@ -1,9 +1,10 @@
 import pickle
 import time
+import selenium
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+import bs4
 from bs4 import BeautifulSoup
-import pandas as pd
 import numpy as np
 import streamlit as st
 from streamlit_card import card
