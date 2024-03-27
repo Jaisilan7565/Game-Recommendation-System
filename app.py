@@ -15,6 +15,7 @@ from sklearn.neighbors import NearestNeighbors
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from scipy.sparse import csr_matrix
+import subprocess
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -23,6 +24,12 @@ st.set_page_config(
     page_icon="🎮",
     layout="wide"
 )
+
+def activate_venv():
+    activate_script= './venv/Scripts/activate'
+    subprocess.run(f"source {activate_script}", shell=True)
+
+activate_venv()
 
 image_url=[]
 game_href=[]

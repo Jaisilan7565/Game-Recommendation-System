@@ -1,4 +1,2 @@
 chromium
 chromium-driver
-qunit-selenium
-scikit-learn
